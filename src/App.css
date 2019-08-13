@@ -1,0 +1,50 @@
+body {
+  background-color: #eee !important;
+}
+.subheader {
+  padding: 20px 0;
+  background-color: #7b7b7b;
+  color: #fff;
+}
+.profile-photo {
+  width: 40px;
+  background-size: cover;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.profile-info {
+  display: inline-block;
+  
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.profile-username {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+.profile-credits {
+  color: #eee;
+  display: block;
+  font-size: 0.9rem;
+}
+.login-component {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.login-component h2 {
+  width: 100%;
+}
+.login-component label {
+  text-align: right;
+}
+.width-100p {
+  width: 100%;
+}
+.login-component .card {
+  margin-bottom: 150px;
+  width: 500px;
+}
