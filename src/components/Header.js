@@ -7,8 +7,7 @@ class Header extends Component {
    
     render(){
         return(
-            <Navbar bg="primary" variant="dark">
-            <Navbar.Brand href="/">Library</Navbar.Brand>
+            <Navbar bg="secondary" variant="dark">
             <Nav className="mr-auto">
             <NavLink className="nav-link" exact={true} to="/">Home</NavLink>
             <NavLink className="nav-link" exact={true} to="/borrow">Available</NavLink>
@@ -16,8 +15,7 @@ class Header extends Component {
             </Nav>
             <div>
                 <div className="profile-info">
-                    <span className="profile-username">name</span>
-                    <span className="profile-credits">credits</span>
+                    <span className="profile-username">user_name</span>
                 </div>
             </div>
           </Navbar>
